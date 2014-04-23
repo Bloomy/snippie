@@ -5,7 +5,8 @@
 //
 Copy / Paste in Xcode:
 
-- (void)viewWillDisappear:(BOOL)animated {
+- (void)viewWillDisappear:(BOOL)animated 
+{
     <# code #>
     
     [super viewWillDisappear:animated];

@@ -8,7 +8,7 @@ It's created every time you back up your snippets and push to git.
 ### Installation
 Fork the repository, to be able to export your own snippets and cheat-sheet. <br>
 You can save the repository wherever you want. <br>
-`$ git clone https://github.com/mneorr/snippie.git xcode-snippets` <br>
+`$ git clone git@github.com:mneorr/xcode-snippets-manager.git xcode-snippets` <br>
 `$ cd xcode-snippets` <br>
 `$ bundle install`
 
@@ -37,37 +37,58 @@ However, if you want to clear the existing snippets, and use the fresh ones, you
 
 ## Cheat Sheet
 		
-* Delegate pragma mark - `delpragma`
-* Image View With Image Named - `imgimg`
-* Release object - `release`
-* Property Custom class - `pobj`
-* Property From dictionary - `pvfk`
-* View did dissapear - `vdd`
-* View Will Dissappear - `vwd`
-* Pragma Mark - `mark`
-* Private Pragma mark - `pmark`
+* Assigned property - `passign`
 * Better Initializer - `init`
-* View Will Appear - `vwa`
-* NSLog - `log`
+* Comment - Section - `comment-section`
+* Constant String Definition - `const_string`
+* Constant type definition - `const_type`
+* Delegate Checking - `responds`
+* Delegate Define - `delegate`
+* Delegate Property - `pdelegate`
+* Delegate pragma mark - `pdel`
+* Enum type - `enumtype`
 * Factory method with Dictionary - `facdict`
-* @Synthesizer with _prefix - `psynth`
-* Private Category - `privcat`
+* Image View With Image Named - `imgimg`
+* Image named - `inamed`
+* Init With Dictionary - `initdict`
+* JSON operation - `jsonop`
+* Localized String - `lstring`
+* Log error and return - `errorLogReturn`
+* Method declaration - `method`
+* MutableArray - `mutarray`
+* MutableDictionary - `mutdic`
+* NSInteger - `int`
+* NSLog - `log`
+* NSString with format - `swf`
+* Pragma - Constants - `pmarkconst`
+* Pragma - Custom Type Definitions - `pmarktypes`
+* Pragma - Object Lifecycle Management - `pmarkobjlife`
 * Pragma - View Lifecycle - `pview`
+* Pragma Mark - `pmark`
+* Pragma mark - Interfaces - `pmarkinterfaces`
+* Present VC - `presentVC`
+* Private Category - `category`
+* Property Bool - `pbool`
+* Property From dictionary - `pvfk`
+* Property IBOutlet custom class - `pibo`
+* Property NSArray - `parray`
+* Property NSMutableArray - `parraymut`
+* Property NSNumber - `pnumber`
+* Property String - `pstring`
+* Property Strong - `pstrong`
+* Singleton - `singleton`
+* Singleton - `singleton-alt`
+* Synthesizer with _prefix - `synth`
+* UITableView delegate and datasource default methods - `tableDelegateSource`
+* User tap helpers - `tapHelpers`
+* Value For Key - `vfk`
+* View Did Appear - `vda`
+* View Did Dissapear - `vdd`
 * View Did Load - `vdl`
 * View Did Unload - `vdu`
-*  - ``
-* View Did Appear - `vda`
-* NSString with format - `swf`
-* Property String - `pstr`
-* Init With Dictionary - `initdict`
-* Value For Key - `vfk`
-* Property NSNumber - `pnum`
-* UIViewController pragma marks - `conpragmas`
-* Singleton - `singleton`
-* Image named - `inamed`
-* Property IBOutlet custom class - `pibo`
-* UITableView delegate and datasource default methods - `delDat`
-* Property NSArray - `parr`
-* Method declaration - `method`
-* JSON operation - `jsonop`
+* View Will Appear - `vwa`
+* View Will Dissappear - `vwd`
 * Void method declaration - `void`
+* initWithStyle - `initWithStyle`
+* layoutSubviews - `layoutSubviews`
+* weakSelf for blocks - `weakself`

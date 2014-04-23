@@ -5,4 +5,4 @@
 //
 Copy / Paste in Xcode:
 
-@property (strong, nonatomic) IBOutlet <#klass#> *<#property#>;
+@property (nonatomic) IBOutlet <#klass#> *<#property#>;

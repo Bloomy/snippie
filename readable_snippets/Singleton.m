@@ -6,9 +6,11 @@
 Copy / Paste in Xcode:
 
 #pragma mark - Singleton
+
 static <#self class#> *singleton;
 
-+ (instancetype)instance {
++ (instancetype)sharedInstance 
+{
     static dispatch_once_t singletonToken;
     dispatch_once(&singletonToken, ^{
         singleton = [[self alloc] init];

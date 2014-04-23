@@ -1,8 +1,11 @@
-//Private Pragma mark
-//#pragma mark - Private
+//layoutSubviews
+//
 //
 //Completion scopes: ["ClassImplementation"]
 //
 Copy / Paste in Xcode:
 
-#pragma mark - Private
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+}

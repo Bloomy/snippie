@@ -2,18 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>const_type</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string></string>
+	<string>static const &lt;#type#&gt; &lt;#name#&gt; = &lt;#value#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7C5D86F1-68BC-41B6-9C15-C5C0272D47AC</string>
+	<string>9453DBB0-5AFA-4CEF-B66F-D207538E347C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string></string>
+	<string>Constant type definition</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

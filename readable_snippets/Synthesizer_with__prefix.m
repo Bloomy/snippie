@@ -1,4 +1,4 @@
-//@Synthesizer with _prefix
+//Synthesizer with _prefix
 //Synthesize with property=_property
 //
 //Completion scopes: ["ClassImplementation"]

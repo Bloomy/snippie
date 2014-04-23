@@ -5,4 +5,4 @@
 //
 Copy / Paste in Xcode:
 
-#pragma mark - View Lifecycle
+#pragma mark - Object Lifecycle Management

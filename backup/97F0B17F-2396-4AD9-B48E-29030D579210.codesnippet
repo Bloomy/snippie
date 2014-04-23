@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>release</string>
+	<string>lstring</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#object#&gt; release];</string>
+	<string>NSLocalizedString(@"&lt;#key#&gt;", nil);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>119CDC92-44DD-4932-94F0-9A4B8BC8C374</string>
+	<string>97F0B17F-2396-4AD9-B48E-29030D579210</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Used for releasing an object</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Release object</string>
+	<string>Localized String</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

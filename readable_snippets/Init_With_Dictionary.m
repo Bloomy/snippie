@@ -5,7 +5,7 @@
 //
 Copy / Paste in Xcode:
 
-- (id)initWithDictionary:(NSDictionary *)dict {
+- (instancetype)initWithDictionary:(NSDictionary *)dict {
     self = [super init];
     if (!self) return nil;
     

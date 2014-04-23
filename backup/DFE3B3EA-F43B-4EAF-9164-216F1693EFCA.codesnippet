@@ -3,23 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>singleton</string>
+	<string>singleton-alt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - Singleton
+
 static &lt;#self class#&gt; *singleton;
 
-+ (instancetype)instance {
++ (instancetype)sharedInstance 
+{
     static dispatch_once_t singletonToken;
     dispatch_once(&amp;singletonToken, ^{
         singleton = [[self alloc] init];
     });
     
     return singleton;
-}</string>
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DFE3B3EA-F43B-4EAF-9164-216F1693EFCA</string>
 	<key>IDECodeSnippetLanguage</key>

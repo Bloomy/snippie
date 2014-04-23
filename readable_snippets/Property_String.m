@@ -5,4 +5,4 @@
 //
 Copy / Paste in Xcode:
 
-@property (strong, nonatomic) NSString *<#property#>;
+@property (nonatomic) NSString *<#property#>;

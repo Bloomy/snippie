@@ -3,35 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>conpragmas</string>
+	<string>pmarkobjlife</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Private
-
-
-
-#pragma mark - View lifecycle
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-
-
-#pragma mark - Public
-
-
-#pragma mark - IBActions</string>
+	<string>#pragma mark - Object Lifecycle Management</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C21E9F8E-BD69-4196-B9C1-1D35255DD1E6</string>
+	<string>9FC65283-4757-49A0-BDBE-BF20FF47C2AF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Pragma marks for the better code organisation. Private on the top eliminates the need of declaring a private interface.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIViewController pragma marks</string>
+	<string>Pragma - Object Lifecycle Management</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

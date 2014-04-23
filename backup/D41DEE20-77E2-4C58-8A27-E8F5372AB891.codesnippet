@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pobj</string>
+	<string>pmarkinterfaces</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#class#&gt; *&lt;#property#&gt;;</string>
+	<string>#pragma mark - Interfaces</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>16700348-E9DD-4A2C-A31C-F448EAEB0EA0</string>
+	<string>D41DEE20-77E2-4C58-8A27-E8F5372AB891</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Strong, Nonatomic property declaration</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Custom class</string>
+	<string>Pragma mark - Interfaces</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

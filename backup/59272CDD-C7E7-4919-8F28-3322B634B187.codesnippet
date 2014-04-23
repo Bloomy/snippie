@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>presentVC</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#ViewController#&gt; *vc = [[&lt;#ViewController#&gt; alloc] init];
+vc.title = &lt;#title#&gt;;
+
+UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+nav.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+[&lt;#fromVC#&gt; presentViewController:nav animated:YES completion:NULL];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>59272CDD-C7E7-4919-8F28-3322B634B187</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Present View Controller</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Present VC</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

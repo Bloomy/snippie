@@ -9,8 +9,10 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidUnload {
+	<string>- (void)viewDidUnload 
+{
     [super viewDidUnload];
+
     &lt;#code#&gt;
 }
 </string>
